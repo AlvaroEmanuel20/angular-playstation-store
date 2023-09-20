@@ -1,0 +1,17 @@
+footer {
+  padding: 20px 40px;
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p {
+  font-size: var(--fs-sm);
+  font-weight: bold;
+}
+
+footer p a {
+  color: var(--blue);
+  font-size: var(--fs-sm);
+}

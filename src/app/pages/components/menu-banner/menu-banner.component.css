@@ -1,0 +1,13 @@
+section {
+  background-color: black;
+  padding: 15px 40px;
+  justify-content: space-between;
+}
+
+.menu, .actions {
+  gap: 15px;
+}
+
+.actions i {
+  color: var(--white);
+}

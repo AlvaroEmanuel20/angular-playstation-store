@@ -1,0 +1,32 @@
+section {
+  background-color: var(--white);
+  padding: 20px 40px;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 200px;
+}
+
+nav {
+  gap: 8px;
+}
+
+nav a {
+  font-weight: 500;
+  padding: 4px 10px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+nav a:hover {
+  transition-duration: 200ms;
+  background-color: var(--gray);
+}
+
+.isActive {
+  background-color: var(--gray);
+}

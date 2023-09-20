@@ -1,4 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --white: #fff;
+  --blue: #005499;
+  --blue-dark: #004177;
+  --gray: #CED5DA;
+
+  --fs-sm: 0.875rem;
+  --fs-md: 1.125rem;
+  --fs-lg: 1.25rem;
+  --fs-xl: 1.5rem;
+  --fs-2xl: 1.875rem;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +20,12 @@
   background: none;
   font-size: 1rem;
   font-family: 'Inter', sans-serif;
+  letter-spacing: 0.05rem;
+}
+
+body, html {
+  overflow-x: hidden;
+  background-color: var(--blue);
 }
 
 a {

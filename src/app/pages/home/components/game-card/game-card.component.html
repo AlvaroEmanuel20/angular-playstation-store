@@ -1,0 +1,24 @@
+<div class="card">
+  <div class="image" [ngStyle]="cardImageStyle">
+    <div *ngIf="gameData.badge" class="badge">{{ gameData.badge }}</div>
+  </div>
+
+  <div class="content vstack">
+    <div>
+      <div class="content__title hstack">
+        <h4>{{ gameData.title }}</h4>
+        <p>{{ gameData.price }}</p>
+      </div>
+
+      <p class="description">{{ gameData.description }}</p>
+    </div>
+
+    <div class="content__footer hstack">
+      <p>{{ gameData.platform }} | {{ gameData.format }}</p>
+
+      <a [routerLink]="['product', gameData.id]">
+        <app-button text="Buy Now"></app-button>
+      </a>
+    </div>
+  </div>
+</div>

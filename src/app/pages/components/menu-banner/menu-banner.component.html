@@ -1,0 +1,14 @@
+<section class="hstack">
+  <div class="hstack" style="gap: 20px;">
+    <img src="../../../../favicon.ico" width="30" alt="Sony logo">
+
+    <div class="menu hstack">
+      <app-menu-item *ngFor="let item of menuItems" [text]="item"></app-menu-item>
+    </div>
+  </div>
+
+  <div class="actions hstack">
+    <app-button text="Sign In"></app-button>
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </div>
+</section>

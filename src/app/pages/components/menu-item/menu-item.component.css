@@ -1,0 +1,23 @@
+button {
+  color: var(--white);
+  gap: 5px;
+}
+
+button:hover {
+  transition-duration: 200ms;
+  background-color: var(--blue);
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+span {
+  font-size: var(--fs-sm);
+}
+
+i {
+  font-size: 10px;
+  padding-top: 2px;
+}

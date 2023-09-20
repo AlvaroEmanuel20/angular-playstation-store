@@ -1,1 +1,16 @@
-<p>home works!</p>
+<div class="home">
+  <section class="banner"></section>
+
+  <section class="top__games">
+    <div class="title hstack">
+      <h1>Big Games + Big Deals</h1>
+      <app-button text="Save Now" variant="white"></app-button>
+    </div>
+
+    <hr>
+
+    <div class="games">
+      <app-game-card *ngFor="let game of games" [gameData]="game"></app-game-card>
+    </div>
+  </section>
+</div>

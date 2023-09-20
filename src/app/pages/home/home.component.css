@@ -1,0 +1,35 @@
+.home {
+  padding-bottom: 40px;
+}
+
+.banner {
+  height: 400px;
+  background-image: url('../../../assets/banner1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.top__games {
+  padding: 40px;
+}
+
+.top__games .title {
+  color: var(--white);
+  justify-content: space-between;
+}
+
+.top__games .title h1 {
+  font-size: var(--fs-lg);
+}
+
+.top__games hr {
+  margin-top: 15px;
+  border: 1px dashed var(--white);
+}
+
+.games {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(356px, 1fr));
+  gap: 20px;
+}
